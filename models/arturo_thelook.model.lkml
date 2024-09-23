@@ -20,7 +20,7 @@ persist_with: arturo_thelook_default_datagroup
 # Explores should be purpose-built for specific use cases.
 
 # To see the Explore you’re building, navigate to the Explore menu and select an Explore under "Arturo Thelook"
-
+explore: sql {}
 explore: billion_orders {
   join: orders {
     type: left_outer
